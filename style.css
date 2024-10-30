@@ -1,0 +1,830 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 65px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navlogo{
+    height: 60px;
+    width: 160px;
+}
+
+.logo{
+    height: 60px;
+    width: 100%;
+    background-image: url(amazon\ logo.PNG);
+    background-size: cover;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+.nav-loc{
+    height: 50px;
+}
+
+.loc1st{
+    margin-top: 0.5rem;
+    margin-left: 15px;
+    font-size: 0.85rem;
+    color: #cccccc;
+}
+
+.loc2nd{
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+.loc-icon{
+    display: flex;
+    align-items: center;
+}
+
+.navsearch{
+    display: flex;
+    width: 900px;
+    height: 45px;
+}
+
+.navsearch:hover{
+    border: 4px solid orange;
+}
+
+.select-all{
+    background-color: #cccccc;
+    width: 60px;
+    text-align: center;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border: none;
+}
+
+.search-box{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 60px;
+    background-color: #febd68;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color:#0f1111;
+}
+
+.language{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.flag{
+    margin-top: 2px;
+    background-color: white;
+    background-image: url(india-1617463_1280.png);
+    background-size: cover;
+    
+    height: 15px;
+    width: 22px;
+}
+
+.lang-select{
+    background-color: #0f1111;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.sign-in{
+    height: 50px;
+}
+
+.sign-in p {
+    margin-top: 0.3rem;
+}
+
+.sign-select{
+    background-color: #0f1111;
+    color: white;
+    border: none;
+}
+
+span{
+    font-size: 0.8rem;
+}
+
+.sign-select{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav-return{
+    height: 50px;
+    line-height: 70%;
+}
+
+.nav-return p {
+    margin-top: 0.5rem;
+}
+
+.nav2nd{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav-cart {
+    height: 50px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.nav-cart i {
+    margin-top: 0.3rem;
+    font-size: 2.5rem;
+}
+
+/* nav bar end */
+/* panel under nav starts */
+
+.panel{
+    height: 45px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-1st{
+    height: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.panel-1st i {
+    margin-top: 0.6rem;
+    font-size: 1.2rem;
+
+}
+
+.pan{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.prime{
+    background-color: #232f3e;
+    color: white;
+    border: none;
+    font-size: 1rem;
+}
+
+/* hero section start */
+.hero {
+    height: 700px;
+    background-image: 
+        linear-gradient(to bottom, rgba(255, 255, 255, 0) 40%, #e2e7e6 100%), /* Gradient */
+        url('hero2.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+/* hero section ends */
+/* shop section starts */
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.box1-content{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.box1-content a {
+    text-decoration: none;
+    color: #007185;
+    font-size: 0.9rem;
+}
+
+.box1-content a:hover{
+    color: red;
+}
+
+.box1-img{
+    height: 300px;
+    background-image: url(hero\ box1.jpg);
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.box2-img {
+    height: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box2-img span{
+    position: relative;
+    top: 100px;
+}
+
+.box2{
+    margin-top: 1rem;
+    height: 100px;
+    width: 47%;
+}
+
+.img21{
+    background-image: url(kitchen.jpg);
+    background-size: cover;
+}
+
+.img22{
+    background-image: url(home\ decor.jpg);
+    background-size: cover;
+}
+
+.img23{
+    background-image: url(furniture.jpg);
+    background-size: cover;
+}
+
+.img24{
+    background-image: url(home\ improve.jpg);
+    background-size: cover;
+}
+
+.img31{
+    background-image: url(baby1.jpg);
+    background-size: cover;
+}
+
+.img32{
+    background-image: url(baby2.jpg);
+    background-size: cover;
+}
+
+.img33{
+    background-image: url(baby3.jpg);
+    background-size: cover;
+}
+
+.img34{
+    background-image: url(baby4.jpg);
+    background-size: cover;
+}
+
+.img51{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/MA2024/GW/Jupiter/BTF/Phase3/PCQC/1x/Kurtas_372x232_4_11zon._SY116_CB545103190_.jpg);
+    background-size: cover;
+}
+
+.img52{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/MA2024/GW/Jupiter/BTF/Phase3/PCQC/1x/Tops_372x232_6_11zon._SY116_CB545103190_.jpg);
+    background-size: cover;
+}
+
+.img53{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/MA2024/GW/Jupiter/BTF/Phase3/PCQC/1x/Dresses_372x232_2_11zon._SY116_CB545103190_.jpg);
+    background-size: cover;
+}
+
+.img54{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/MA2024/GW/Jupiter/BTF/Phase3/PCQC/1x/Sarees_372x232_5_11zon._SY116_CB545103190_.jpg);
+    background-size: cover;
+}
+
+.img71{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img24/PB/Jupiter24/PC_Lifestyle_QC_186x116-200._SY116_CB543322898_.jpg);
+    background-size: cover;
+}
+
+.img72{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img24/PB/Jupiter24/PC_Lifestyle_QC_186x116_5-100._SY116_CB543322898_.jpg);
+    background-size: cover;
+}
+
+.img73{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img24/PB/Jupiter24/PC_Lifestyle_QC_186x116-20123._SY116_CB543322898_.jpg);
+    background-size: cover;
+}
+
+.img74{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img24/PB/Jupiter24/PC_Lifestyle_QC_186x116-200111._SY116_CB543322898_.jpg);
+    background-size: cover;
+}
+
+.img81{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/Jupiter24/PC_QC_1_1x._SY116_CB562149152_.jpg);
+    background-size: cover;
+}
+
+.img82{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/Jupiter24/PC_QC_2_1x._SY116_CB562149152_.jpg);
+    background-size: cover;
+}
+
+.img83{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/Jupiter24/PC_QC_3_1x._SY116_CB562149152_.jpg);
+    background-size: cover;
+}
+
+.img84{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/Jupiter24/PC_QC_4_1x._SY116_CB562149152_.jpg);
+    background-size: cover;
+}
+
+.box6-img{
+    height: 300px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/Camera/Changes/p2/PC_CC_758x608_CEPC_50._SY304_CB545069641_.jpg);
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.box4 {
+    height: 110px;
+}
+
+.box4-sign{
+    margin-top: 1rem;
+    background-color: rgb(255, 230, 0);
+    border: none;
+    height: 30px;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.box4-sign:hover{
+    background-color:goldenrod;
+}
+
+.shop{
+    position: absolute;
+    top: 400px;
+    /* height: 1000px; */
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #ece7e7; */
+}
+
+.shop2{
+    padding-top: 2.5rem;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ece7e7;
+}
+
+/* shop section ends */
+/* deal section starts */
+
+.deal{
+    height: 420px;
+    background-color: #ece7e7;
+    display: flex;
+    justify-content: center;
+}
+
+.deal-sec{
+    height: 400px;
+    width: 97%;
+    background-color: #ffd77d;
+    /* display: flex; */
+}
+
+.deal h2 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.dealbox{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.deal1{
+    height: 320px;
+    width: 250px;
+    background-color: white;
+}
+
+.deal-img{
+    background-size: cover;
+    height: 220px;
+}
+
+.d1{
+    background-image: url(https://m.media-amazon.com/images/I/41G3UI1a5lL._SR480,440_.jpg);
+}
+
+.d2{
+    background-image: url(https://m.media-amazon.com/images/I/31wfjQDKMbL._SR480,440_.jpg);
+}
+
+.d3{
+    background-image: url(https://m.media-amazon.com/images/I/41HPKFYycPL._SR480,440_.jpg);
+}
+
+.d4{
+    background-image: url(https://m.media-amazon.com/images/I/41srWtqYulL._SR480,440_.jpg);
+}
+
+.d5{
+    background-image: url(https://m.media-amazon.com/images/I/41Kjoa5dLhL._SR480,440_.jpg);
+}
+
+.d6{
+    background-image: url(https://m.media-amazon.com/images/I/31pAe23ncfL._SR480,440_.jpg);
+}
+
+.deal1 p {
+    margin-left: 0.4rem;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+.p1{
+    background-color: #cc0c39;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 0.3rem;
+}
+
+.p2{
+    color: #cc0c39;
+    font-weight: bold;
+}
+
+.p3{
+    font-size: 1.3rem;
+}
+
+.p3 sup {
+    font-size: 2rem;
+}
+
+.p5{
+    text-decoration: line-through;
+}
+
+.p6{
+    font-size: 0.85rem;
+}
+
+.d21{
+    background-image: url(https://m.media-amazon.com/images/I/41d+5kRU2kL._SR480,440_.jpg);
+}
+
+.d22{
+    background-image: url(https://m.media-amazon.com/images/I/516sQvsn0qL._SR480,440_.jpg);
+}
+
+.d23{
+    background-image: url(https://m.media-amazon.com/images/I/31Hi7JTBtPL._SR480,440_.jpg);
+}
+
+.d24{
+    background-image: url(https://m.media-amazon.com/images/I/21qKn0ChHNL._SR480,440_.jpg);
+}
+
+.d25{
+    background-image: url(https://m.media-amazon.com/images/I/41S9FWgv3-L._SR480,440_.jpg);
+}
+
+.d26{
+    background-image: url(https://m.media-amazon.com/images/I/41B1BGnUnNL._SR480,440_.jpg);
+}
+
+/* only photos deal */
+.img-deal{
+    height: 340px;
+}
+
+.only-img-deal{
+    background-color: white;
+    height: 320px;
+    width: 97%;
+}
+
+.only-img-deal h2 {
+    display: inline-block;
+}
+
+.only-img-deal a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #007185;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.only-img-deal a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.only-img-box{
+    margin-top: 1rem;
+    /* margin-left: 1rem; */
+    height: 230px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.only-img{
+    height: 100%;
+    width: 13%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.only-img-deal1{
+    background-image: url(https://m.media-amazon.com/images/I/61p8i0azkvL._AC_SY200_.jpg);
+    width: 10%;
+}
+
+.only-img-deal2{
+    background-image: url(https://m.media-amazon.com/images/I/61KNCfHKL0L._AC_SY200_.jpg);
+}
+
+.only-img-deal3{
+    background-image: url(https://m.media-amazon.com/images/I/61-rv4FJ3AL._AC_SY200_.jpg);
+    width: 9%;
+}
+
+.only-img-deal4{
+    background-image: url(https://m.media-amazon.com/images/I/51vNMv6Ua-L._AC_SY200_.jpg);
+    width: 12%;
+}
+
+.only-img-deal5{
+    background-image: url(https://m.media-amazon.com/images/I/515nNlnjmSL._AC_SY200_.jpg);
+    width: 11%;
+}
+
+.only-img-deal6{
+    background-image: url(https://m.media-amazon.com/images/I/414ly0wsjYL._AC_SY200_.jpg);
+}
+
+.only-img-deal7{
+    background-image: url(https://m.media-amazon.com/images/I/61B8-nfHqlL._AC_SY200_.jpg);
+    width: 10%;
+}
+
+.only-img-deal8{
+    background-image: url(https://m.media-amazon.com/images/I/519AaOu5XrL._AC_SY200_.jpg);
+    width: 10%;
+}
+
+.only-img-deal9{
+    background-image: url(https://m.media-amazon.com/images/I/51fbmWdbOfL._AC_SY200_.jpg);
+    width: 10%;
+}
+
+
+
+/* circle images deals  */
+.round-box{
+    justify-content: space-evenly;
+}
+
+.only-img-deal21{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/Meghana/iQOO/LL/Tiles/LLTiles/V2/D156384865_WLD-Jupiter24_Central-Inputs_Design-SIM_PC_Shoveler_200x200._CB545244345_.jpg);
+}
+
+.only-img-deal22{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/CEPC_soundbars_speakers/JUP_HA24/PC_Shoveler_200x200_CEPC._CB544480780_.jpg);
+}
+
+.only-img-deal23{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/OHL/Jup24/GW/PC_Shoveler_200x200-1._CB544914944_.jpg);
+}
+
+.only-img-deal24{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irshad/Jupiter24/PCS/EN_1X._CB545176360_.jpg);
+}
+
+.only-img-deal25{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/INSLGW/Jup24/phase3/PC_Shoveler_200x200-phase3._CB544756078_.jpg);
+}
+
+.only-img-deal26{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img24/Consumables/Jupiter/GW/Phase2/PC_Shoveler_200x200._CB544902526_.jpg);
+}
+
+.only-img-deal27{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/vernac-t/header/1x__0000_PC_Shoveler_400x400-Media._CB545169530_.jpg);
+}
+
+/* See personalized recommendations
+Sign in */
+.lower-sign-in{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lower-sign-box{
+    height: 120px;
+    width: 97%;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.lower-sign-box button {
+    margin-top: 1rem;
+    background-color: rgba(255, 217, 0, 0.73);
+    border: none;
+    height: 2rem;
+    width: 15%;
+    border: 2px solid gold;
+    border-radius: 0.3rem;
+    font-weight: bold;
+}
+
+.lower-sign-box3{
+    display: flex;
+    justify-content: center;
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.lower-sign-box a {
+    text-decoration: none;
+    margin-left: 0.5rem;
+    color: #007185;
+}
+
+.lower-sign-box a:hover{
+    color: maroon;
+}
+
+/* footer area starts */
+.back-to-top{
+    background-color: #37475a;
+    color: white;
+    height: 3.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.back-to-top:hover{
+    background-color: #475a71;
+}
+
+/* <!-- get to know us,contact with us, Make Money with Us, Let Us Help You --> */
+/* footer part 2 */
+.foot-part2{
+    background-color: #222f3d;
+    color: white;
+    height: 420px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-part2 p {
+    font-weight: bolder;
+    font-size: 1.05rem;
+}
+
+.foot-part2 ul {
+    margin-top: 3rem;
+}
+
+.foot-part2 a {
+    display: block;
+    color: #dddddd;
+    text-decoration: none;
+    margin-top: 0.85rem;
+}
+
+.foot-part2 a:hover{
+    text-decoration: underline;
+}
+
+/* footer part 3 starts
+amazon logo */
+.foot-part3{
+    background-color: #222f3d;
+    height: 120px;
+    color: white;
+    border-top: 0.1px inset #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2{
+    height: 50px;
+    width: 100px;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    margin-right: 100px;
+}
+
+.foot-part3 select{
+    background-color: #222f3d;
+    color: white;
+    border: none;
+}
+
+.foot-part3-box{
+    height: 35px;
+    width: 120px;
+    display: flex;
+    border: 0.1px inset #dddddd;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+    border-radius: 3px;
+}
+
+/* footer part 4 starts */
+.foot-part4{
+    height: 170px;
+    background-color: #131a22;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.foot-part4 table {
+    width: 70%;
+    height: 130px;
+    margin-left: 6rem;
+    line-height: 0.85rem;
+}
+
+.foot-part4 a{
+    color: #999999;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.foot-part4 a:hover{
+    text-decoration: underline;
+}
+
+.first-line {
+    color: #dddddd;
+}
+
+/* <!-- footer part 5 strats -->
+<!-- Conditions of Use & Sale */
+.foot-part5{
+    background-color: #131a22;
+    height: 80px;
+    color: #dddddd;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.foot-part5 a {
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.options{
+    padding-top: 0.85rem;
+}
+
+.copyright{
+    padding-top: 0.3rem;
+}
